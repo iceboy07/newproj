@@ -1,0 +1,173 @@
+body{
+  background-color: black;
+}
+
+.main{
+  background-color: rgb(31, 31, 45);
+  color: white;
+  margin: 0 auto;
+  width: 75%;
+}
+
+
+h1{
+  font-size: 70px;
+  padding: 10px 30px;
+}
+h2{
+    padding:10px 30px;
+}
+h4{
+  color: rgb(242, 209, 40);
+  text-decoration: underline;
+    padding: 10px 30px;
+}
+h5, p{
+  color:rgb(63, 62, 59);
+    padding: 10px 30px;
+}
+
+
+
+
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logo img{
+  width: 75px;
+  height: 75px;
+  padding-left: 65px;
+}
+.navflex{
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.navflex a{
+  color: rgb(132, 131, 116);
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+}
+.navflex a:hover{
+  color: white;
+}
+
+
+
+
+.intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+  margin: 30px auto;
+/*  background-image: url("https://pluspng.com/img-png/picture-of-a-boy-png-hd-pluspng-com-child-png-pluspng-com-kids-smiling-png-hd-2708.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  */
+  justify-content: space-around;
+  align-items: center;
+}
+.Name{
+font-family: "Times New Roman";
+padding: 55px;
+
+}
+
+.Info{
+padding: 55px;
+}
+
+
+
+
+.about{
+  background-color: rgb(25, 24, 40);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+}
+.right{
+  padding: 55px;
+}
+.left{
+  padding: 55px;
+}
+.right span{
+  display: inline-flex;
+}
+.right span h2 {
+  color: rgb(242, 209, 40);
+  padding: 5px;
+}
+
+
+
+
+
+
+
+.floa{
+  width: 65%;
+  margin: 0 auto;
+  }
+.floa span{
+  display: inline-flex;
+  background-color: rgb(102, 97, 97);
+  width: 185px;
+  height: 200px;
+  margin: 0 25px;
+  position: relative;
+  top: -75px;
+}
+.floa h3{
+  font-size: 25px;
+  padding: 25px;
+}
+.floa span:hover{
+  background-color: rgb(242, 209, 40);
+}
+
+
+
+
+
+.portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.lef{
+padding: 55px;
+}
+.righ{
+padding: 55px;
+}
+
+
+
+
+.blog{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mfnjkfbgjkljlkerjiotio
