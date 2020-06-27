@@ -9,7 +9,9 @@ var displayWikipedia = function(){
     jsonp : "callback",
     success: function(res) {
         var linkLists = res[1];
-        console.log(linkLists);
+        linkLists.forEach(function(item) {
+          console.log(item);
+        })
 
     }
   });
