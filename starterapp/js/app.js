@@ -10,7 +10,8 @@ var displayWikipedia = function(){
     success: function(res) {
         var linkLists = res[1];
         linkLists.forEach(function(item) {
-          $linnksElement.append(item);
+          var url = 'https://en.wikipedia.org/wiki' + item;
+          $linnksElement.append(url);
         })
 
     }
