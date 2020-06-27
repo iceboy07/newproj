@@ -10,7 +10,7 @@ var displayWikipedia = function(){
     success: function(res) {
         var linkLists = res[1];
         linkLists.forEach(function(item) {
-          console.log(item);
+          $linnksElement.append(item);
         })
 
     }
