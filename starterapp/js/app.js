@@ -11,7 +11,7 @@ var displayWikipedia = function(){
         var linkLists = res[1];
         linkLists.forEach(function(item) {
           var url = 'https://en.wikipedia.org/wiki' + item;
-          $linnksElement.append(url);
+          $linnksElement.append('<li><a href="'+ url +'">' +item + '</a></li>');
         })
 
     }
